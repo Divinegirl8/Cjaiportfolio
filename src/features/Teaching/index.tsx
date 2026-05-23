@@ -1,5 +1,6 @@
-import arrowButtonIcon from "../../assets/new-portfolio/teaching/export (1).svg";
-import luckyOne from "../../assets/new-portfolio/teaching/image 205.png";
+import arrowButtonIcon from "../../assets/new-portfolio/teaching/arrow-right.svg";
+import luckyOne from "../../assets/new-portfolio/teaching/Mask group (27).png";
+import lucky from "../../assets/new-portfolio/teaching/Mask group (26).png";
 import luckyTwo from "../../assets/new-portfolio/teaching/Mask group (13).png";
 
 const Teaching : React.FC = () => {
@@ -74,17 +75,21 @@ const Teaching : React.FC = () => {
 
 <div className="grid lg:grid-cols-3  md:grid-cols-2 grid-cols-1 gap-5">
     <div className="flex flex-col md:gap-4 md:mt-16 mt-5">
-        <h4 className="text-[#626262] text-[16px]">ONLINE MENTORSHIP</h4>
+        <h4 className="text-[#626262] text-[16px]">COMMUNITY EDUCATION</h4>
 
         <div className="flex gap-3 flex-col">
             <h2 className="text-[#000000] md:text-[25px] text-[20px] font-medium leading-tight ">
-                <span className="block">One-on-one Sessions with </span>
-                <span className="block">Aspiring Designers Globally</span>
+                <span className="block">Teaching Product Design in </span>
+                <span className="block"> Underserved Communities</span>
+                
             </h2>
-            <span className="text-[14px] text-[#626262] font-normal">Ongoing since 2022</span>
+            <span className="text-[14px] text-[#626262] font-normal">Ongoing since 2026</span>
 
             <div className="mt-3">
-                <div className="xl:w-[24rem] h-[24rem] bg-[#D9D9D9]"></div>
+                
+                <div className="xl:w-[24rem] h-[24rem] bg-[#D9D9D9]">
+                    <img src={lucky} alt="mentorship" className="w-full h-full object-cover"/>
+                </div>
             </div>
         </div>
     </div>
@@ -94,7 +99,7 @@ const Teaching : React.FC = () => {
        
         <div className="flex gap-3 flex-col">
             <h2 className="text-[#000000] md:text-[25px] text-[20px] font-medium leading-tight ">
-                <span className="block">Empowering Design Education in Schools Across Nigeria</span>
+                <span className="block">Driving Design Education in Institutions Across Nigeria</span>
              
             </h2>
             <span className="text-[14px] text-[#626262] font-normal">Ongoing since 2024</span>
@@ -113,7 +118,7 @@ const Teaching : React.FC = () => {
 
         <div className="flex gap-3 flex-col">
             <h2 className="text-[#000000] md:text-[25px] text-[20px] font-medium leading-tight ">
-                <span className="block">Free Design Training for Young Aspiring Designers </span>
+                <span className="block">Training Industry Professionals on AI-Driven Workflows</span>
         
             </h2>
             <span className="text-[14px] text-[#626262] font-normal">Ongoing since 2025</span>
