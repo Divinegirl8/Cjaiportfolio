@@ -20,6 +20,7 @@ interface Publication {
   date: string;
   title: string;
   description: string;
+  link: string;
 }
 
 const Publications: React.FC = () => {
@@ -37,6 +38,7 @@ const Publications: React.FC = () => {
       date: '18 Sep. 2025',
       title: 'Using Design to Make African Startups...',
       description: "Africa's startup sector is thriving, but one important piece that has often been missing is design that...",
+      link : "https://techeconomy.ng/lucky-ekezie-african-startups-design/"
   
     },
     {
@@ -47,6 +49,8 @@ const Publications: React.FC = () => {
       date: '22 Jun. 2025',
       title: "Why Apple's Design Feels So Right",
       description: 'Apple has long been known not just for innovation in technology but also for how its products make...',
+      link : "https://medium.com/@luckyekezie80/the-psychology-behind-the-new-ios-interface-why-apples-design-feels-so-right-e8c0bf377279"
+
       
     },
     {
@@ -57,7 +61,8 @@ const Publications: React.FC = () => {
       date: '02 Jun. 2025',
       title: 'Why Are There So Many AI Tools?',
       description: 'Last weekend, I had the honor of speaking at an AI training event hosted by Vow TV on May 30...',
-    
+      link : "https://medium.com/@luckyekezie80/why-are-there-so-many-ai-tools-navigating-the-creative-chaos-of-generative-ai-d7db6893b5d7"
+
     },
     {
       id: 4,
@@ -67,7 +72,8 @@ const Publications: React.FC = () => {
       date: '07 Apr. 2025',
       title: "A Beginner's Guide for Generative Artists",
       description: 'Generative art is like magic. You type in a few words, and suddenly, a beautiful image appears...',
-   
+      link : "https://medium.com/@luckyekezie80/the-art-of-the-prompt-a-beginners-guide-for-generative-artists-b9f5bc97390f"
+
     },
     {
       id: 5,
@@ -77,7 +83,8 @@ const Publications: React.FC = () => {
       date: '10 Oct. 2025',
       title: 'Why Product Designers Need to Build',
       description: 'A few years ago, I asked myself a simple question that changed everything about how I approach design...',
- 
+      link : "https://medium.com/@luckyekezie80/why-product-designers-need-to-build-and-own-more-digital-products-f5d05fa6c1fa"
+
     },
     {
       id: 6,
@@ -87,7 +94,7 @@ const Publications: React.FC = () => {
       date: '05 Apr. 2023',
       title: 'Staying Relevant As a Product Designer',
       description: 'Staying relevant in the tech industry as a product designer requires ongoing learning and skill...',
-  
+      link : "https://medium.com/@luckyekezie80/staying-relevant-as-a-product-designer-62bf7b7bdd4d"
     },
     {
       id: 7,
@@ -97,7 +104,7 @@ const Publications: React.FC = () => {
       date: '15 Mar. 2023',
       title: 'The Future of UI/UX Design Trends',
       description: 'Exploring emerging design patterns and how they shape user experiences in modern applications...',
-   
+      link : "https://medium.com/@luckyekezie80/what-is-the-latest-trends-in-ux-design-1dd366e1f6d5"
     }
   ];
 
@@ -132,8 +139,8 @@ const Publications: React.FC = () => {
       <div className="mb-12">
         <h2 className="md:text-[35px] text-[25px] font-semibold text-black mb-4">Publications.</h2>
         <p className="text-[#626262] text-[16px] max-w-lg leading-relaxed font-normal">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. In id lorem consectetur, porta enim id, pretium ligula. Donec ultricies massa id risus semper.
-        </p>
+              My published articles on design, AI, and product thinking, plus podcast
+              appearances and press coverage on innovation in tech and design.        </p>
       </div>
 
       {/* Tabs */}
@@ -186,11 +193,16 @@ const Publications: React.FC = () => {
               <p className="text-sm text-gray-600 mb-2 line-clamp-2">
                 {pub.description}
               </p>
-              <div className="flex items-center gap-2 text-[14px] font-[700] text-black group-hover:text-[#238EFF] transition-colors">
-                Read post
-                <img src={blackArrowIcon} className='group-hover:hidden'/>
-                <img src={blueArrowIcon} className='hidden group-hover:block'/>
-              </div>
+                <a 
+                    href={pub.link} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="flex items-center gap-2 text-[14px] font-[700] text-black group-hover:text-[#238EFF] transition-colors cursor-pointer"
+                  >
+                    Read post
+                    <img src={blackArrowIcon} className='group-hover:hidden' alt="arrow"/>
+                    <img src={blueArrowIcon} className='hidden group-hover:block' alt="arrow"/>
+                  </a>
             </div>
           </div>
         ))}
