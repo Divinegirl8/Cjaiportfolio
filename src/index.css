@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body {
+    background-color: #FBFBFB;
+    /* background-color: #131316; */
+    font-family: "Manrope", sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .manrope- {
+    font-family: "Manrope", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400; 
+    font-style: normal;
+  }
