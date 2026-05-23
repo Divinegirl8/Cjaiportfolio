@@ -210,7 +210,7 @@ const Publications: React.FC = () => {
 
       {/* Load More / Show Less Button */}
       {(hasMore || showingAll) && (
-        <div className="flex justify-center mt-20">
+        <div className="flex justify-center mt-20 cursor-pointer">
           <button 
             onClick={showingAll ? handleShowLess : handleLoadMore}
             className="w-full py-8 border-1 border-[#9CA0A4] text-black font-semibold text-[16px] hover:bg-gray-100 transition-colors"
