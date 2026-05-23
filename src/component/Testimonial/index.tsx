@@ -7,6 +7,8 @@ import enablerArrowIcon from "../../assets/new-portfolio/testimonial/rightarr.sv
 import uzorPicture from "../../assets/new-portfolio/testimonial/Mask group (14).png";
 import copyAllIcon from "../../assets/new-portfolio/testimonial/Copy All.svg";
 import cliqmitIcon from "../../assets/new-portfolio/testimonial/Cliqmit.svg";
+import nasImage from "../../assets/new-portfolio/testimonial/Mask group (19).png";
+import ugiImage from "../../assets/new-portfolio/testimonial/Mask group (18).png";
 
 interface Testimonial {
     text: string;
@@ -21,7 +23,6 @@ const Testimonial: React.FC = () => {
     const [touchStart, setTouchStart] = useState(0);
     const [touchEnd, setTouchEnd] = useState(0);
     const minSwipeDistance = 50;
-
     const testimonials: Testimonial[] = [
         {
             text: "Lucky transformed our vision into reality. His strategic approach to design didn't just solve user problems—it positioned CliqMit competitively in the market. He's a true product thinker who understands both users and business.",
@@ -30,17 +31,18 @@ const Testimonial: React.FC = () => {
             avatar : uzorPicture
         },
         {
-            text: "Another testimonial text goes here. This is just a placeholder for demonstration purposes.",
-            name: "John Doe",
-            title: "Creative Director"
+            text: "Lucky played a critical role in shaping Kobo into a scalable fintech product. He combines deep user insight with strong technical and business understanding, translating complexity into clear, effective design decisions that directly improved adoption and execution.",
+            name: "Nasir",
+            title: "CTO, Kobo Connect",
+            avatar : nasImage
         },
         {
-            text: "Lorem ipsum dolor sit amet, consectetur adipi elit. Quisque cursus leo in euismod imperdiet. Curabitur rhoncus sit amet lorem in feugiat. Phasellus consec tetur eget nibh a gravida. Proin pulvinar dolor a odio ultricies malesuada.",
-            name: "Daniel Oku",
-            title: "Human Resource Manager"
+            text: "Lucky was instrumental in redefining Bosscab’s product experience. His ability to balance user needs, technical constraints, and business goals helped position the platform as a more accessible and scalable mobility solution.",
+            name: "Ugi Augustine Ugi",
+            title: "President, Nugi Group",
+            avatar : ugiImage
         },
     ];
-
     const handlePrevious = () => {
         setCurrentIndex((prev) => (prev > 0 ? prev - 1 : testimonials.length - 1));
     };
