@@ -2,6 +2,7 @@ import arrowButtonIcon from "../../assets/new-portfolio/teaching/arrow-right.svg
 import luckyOne from "../../assets/new-portfolio/teaching/Mask group (27).png";
 import lucky from "../../assets/new-portfolio/teaching/Mask group (26).png";
 import luckyTwo from "../../assets/new-portfolio/teaching/Mask group (13).png";
+import { Link } from "react-router-dom";
 
 const Teaching : React.FC = () => {
     return(
@@ -107,8 +108,13 @@ const Teaching : React.FC = () => {
             <div className="mt-3 flex flex-col lg:gap-5 xl:gap-14  ">
                 <div className="xl:w-[24rem]"><img src={luckyOne}/></div>
                 <div className="justify-end mr-10 hidden lg:flex">
-                    <div className="bg-[#238EFF] h-[72px] w-[72px] rounded-full justify-center items-center flex cursor-pointer"><img src={arrowButtonIcon}/></div>
-                </div>
+                    <Link
+                        to="/teachings"
+                        className="bg-[#238EFF] h-[72px] w-[72px] rounded-full justify-center items-center flex cursor-pointer"
+                    >
+                        <img src={arrowButtonIcon} alt="Arrow button" />
+                    </Link>
+                    </div>
             </div>
         </div>
     </div>

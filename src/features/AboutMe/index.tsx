@@ -1,4 +1,4 @@
-import luckyImg from "../../assets/new-portfolio/about-me/Mask group (7).png";
+import luckyImg from "../../assets/new-portfolio/about-me/Image (9).png";
 import Form from "../../component/Form";
 import cpuIcon from "../../assets/new-portfolio/about-me/skills/cpu.svg";
 import chartIcon from "../../assets/new-portfolio/about-me/skills/chart.svg";
@@ -19,13 +19,13 @@ const AboutMe : React.FC = () =>{
 
             <div className="flex flex-col md:gap-3">
                     <h3 className="font-semibold md:text-[35px] text-[25px] text-[#000000]">About Me.</h3>
-                    <p className="font-normal text-[16px] text-[#626262] md:w-[34rem]">I’m an AI-driven Product Designer blending creativity, strategy, and technology to build simple, human-centered digital experiences.</p>
+                    <p className="font-normal text-[16px] text-[#626262] md:w-[34rem]">I’m an AI-driven Product Designer blending creativity, strategy, and technology to build simple, human and machine-centered digital experiences.</p>
             </div>
 
             <div className="flex xl:flex-row flex-col gap-10 items-stretch md:mt-20 mt-5">
-                    <div className="lg:w-[40%] flex-shrink-0">
-                        <img src={luckyImg} alt="luckyImg" className="w-full h-full md:object-cover"/>
-                    </div>
+    <div className="xl:w-[50%] w-full flex-shrink-0 xl:self-stretch">
+        <img src={luckyImg} alt="luckyImg" className="w-full h-full object-cover object-top"/>
+    </div>
                     <div className="flex-1">
                         <div className="w-full h-full md:bg-[#F4F4F4] md:px-10 md:py-10 flex flex-col">
                             <h4 className="text-[30px] text-black font-semibold">Lucky Ekezie</h4>
@@ -33,31 +33,47 @@ const AboutMe : React.FC = () =>{
 
                             <div className="md:mt-10 mt-5 flex-1 overflow-y-auto text-[16px]">
                                 <p className="mb-4">
-                                    I am a product designer and technology entrepreneur focused on building intelligent,
-                                    human-centered solutions for everyday problems. Over the years, I've worked across
-                                    fintech, mobility, gaming, media, and productivity—experiences that shaped my
-                                    approach to creating products that are both functional and emotionally intuitive.
+                                I am a Senior Product Designer and AI builder with 8+ years of experience designing digital products
+                                that work — for people and for machines. My work spans fintech, mobility, Web3 gaming, e-commerce,
+                                and AI-driven technology, and I bring the same obsession with clarity and intelligence to every
+                                product I touch.
                                 </p>
 
                                 <p className="mb-4">
-                                    As a founder, I'm currently building Conversa, an AI call assistant that handles business
-                                    calls with speed and accuracy, and Copyall, a smart productivity tool that organizes
-                                    everything users copy in real time. Both products reflect my passion for solving real-
-                                    world challenges through automation, simplicity, and thoughtful design.
+                                I work at an intersection most designers haven't reached yet: designing experiences that are
+                                intuitive for human beings and structurally legible to AI systems. As artificial intelligence becomes
+                                the primary layer between products and the people who use them, I believe design must evolve to
+                                speak two languages simultaneously — the emotional language of human experience and the
+                                structural language that machines understand. I call this Machine Experience (MX) Design, and it
+                                shapes how I think about every product decision I make.
                                 </p>
 
                                 <p className="mb-4">
-                                    My background in concept art, motion graphics, and AI-driven creativity gives me a
-                                    unique perspective on product development. I approach every idea like a system—
-                                    understanding the business goals, mapping user needs, and designing an experience
-                                    that feels natural, efficient, and intelligent.
+                                    Beyond my client and employer work, I am building Sernio AI — an AI voice agent platform that
+                                    automates business calls, customer qualification, and sales workflows for SMEs — taking it from
+                                    research and concept through high-fidelity design and prototype. I have mentored 115+ designers
+                                    globally across formal programmes and independent engagements, helping them transition into mid
+                                    and senior roles at leading technology companies. I also teach product design at the grassroots level
+                                    — bringing design education directly into underserved communities where access to formal tech
+                                    training is limited.
+                                </p>
+
+                                <p className="mb-4">
+                                    I write about AI and product design for Bootcamp, part of UX Collective — the largest design
+                                    publication on Medium — where I was personally invited to contribute by its founder, Fabricio Teixeira.
+                                    My work has been featured on Techeconomy, and I have appeared as a featured expert on
+                                    TecheconomyTV discussing how design shapes the success of startups across Africa.
+                                </p>
+
+                                <p className="mb-4">
+                                    My products have reached 30,000+ active users across global markets. Syncventory, a product I
+                                    designed at Nugi Technologies, was featured at London Tech Week 2023. I applied to Y Combinator
+                                    with Conversa AI — because I build with global ambition, not local limits.
                                 </p>
 
                                 <p>
-                                    Alongside building my own products, I collaborate with teams and businesses who want
-                                    to create meaningful digital experiences. I bring a balance of design strategy,
-                                    storytelling, and technical experimentation to every project, helping companies move
-                                    from idea to execution with clarity and impact.
+                                    I collaborate with teams and businesses who want to build products that don't just look good — but
+                                    think well, perform consistently, and earn the deep trust of the people who use them.
                                 </p>
                             </div>
                         </div>

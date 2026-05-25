@@ -8,6 +8,10 @@ import jetImage from "../../assets/new-portfolio/publications/Mask group (10).pn
 import senseImage from "../../assets/new-portfolio/publications/Mask group (11).png";
 import paperImage from "../../assets/new-portfolio/publications/Mask group (12).png";
 import Form from '../../component/Form';
+import techImage from "../../assets/new-portfolio/publications/Mask group (28).png";
+import rayImage from "../../assets/new-portfolio/publications/image 374.png";
+import fourthImage from "../../assets/new-portfolio/publications/Mask group (29).png";
+import fifthImage from "../../assets/new-portfolio/publications/Mask group (30).png";
 
 
 type TabType = 'View all' | 'Design' | 'Artificial Intelligence' | 'Business' | 'Lifestyle';
@@ -32,6 +36,17 @@ const Publications: React.FC = () => {
   const allPublications: Publication[] = [
     {
       id: 1,
+      image: techImage,
+      category: 'Business',
+      source: 'Youtube.com/techeconomytv',
+      date: '18 May. 2026',
+      title: 'Why Product Design Matters for Start...',
+      description: "Many startups focus heavily on building technology, securing funding, and marketing their products...",
+      link : "https://youtu.be/k90vPzC75is?si=mm11lIYzAm7oNGpC"
+  
+    },
+    {
+      id: 2,
       image: luckyImage,
       category: 'Lifestyle',
       source: 'Techeconomy.com',
@@ -42,7 +57,43 @@ const Publications: React.FC = () => {
   
     },
     {
-      id: 2,
+      id: 3,
+      image: rayImage,
+      category: 'Artificial Intelligence',
+      source: 'Medium.com/bootcamp',
+      date: '09 May. 2026',
+      title: "Your product is invisible to AI, and you...",
+      description: 'The design discipline nobody is talking about yet could determine whether your product gets...',
+      link : "https://medium.com/design-bootcamp/your-product-is-invisible-to-ai-and-you-dont-even-know-it-caf9e7b2566d"
+
+      
+    },
+    {
+      id: 4,
+      image: fourthImage,
+      category: 'Design',
+      source: 'Medium.com/bootcamp',
+      date: '10 Apr. 2026',
+      title: "Vibe Designing: The New Way Designers...",
+      description: 'Everyone’s talking about vibe coding. But the real shift happening in design studios right now...',
+      link : "https://medium.com/design-bootcamp/vibe-designing-the-new-way-designers-are-shipping-without-a-full-team-08f8f66185ef"
+
+      
+    },
+    {
+      id: 5,
+      image: fifthImage,
+      category: 'Business',
+      source: 'Medium.com/bootcamp',
+      date: '04 Mar. 2026',
+      title: "The Art and Science of E-Commerce Flow...",
+      description: 'A comprehensive guide to creating seamless shopping experiences that convert browsers into buyers.',
+      link : "https://medium.com/design-bootcamp/the-art-and-science-of-e-commerce-flow-mastering-pdp-plp-and-checkout-design-7d478ba156fa"
+
+      
+    },
+    {
+      id: 6,
       image: laptopImage,
       category: 'Design',
       source: 'Medium.com',
@@ -54,7 +105,7 @@ const Publications: React.FC = () => {
       
     },
     {
-      id: 3,
+      id: 7,
       image: veoImage,
       category: 'Artificial Intelligence',
       source: 'Medium.com',
@@ -65,7 +116,7 @@ const Publications: React.FC = () => {
 
     },
     {
-      id: 4,
+      id: 8,
       image: jetImage,
       category: 'Artificial Intelligence',
       source: 'Medium.com',
@@ -76,7 +127,7 @@ const Publications: React.FC = () => {
 
     },
     {
-      id: 5,
+      id: 9,
       image: senseImage,
       category: 'Design',
       source: 'Medium.com',
@@ -87,7 +138,7 @@ const Publications: React.FC = () => {
 
     },
     {
-      id: 6,
+      id: 10,
       image: paperImage,
       category: 'Design',
       source: 'Medium.com',
@@ -95,17 +146,17 @@ const Publications: React.FC = () => {
       title: 'Staying Relevant As a Product Designer',
       description: 'Staying relevant in the tech industry as a product designer requires ongoing learning and skill...',
       link : "https://medium.com/@luckyekezie80/staying-relevant-as-a-product-designer-62bf7b7bdd4d"
-    },
-    {
-      id: 7,
-      image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=400&h=300&fit=crop',
-      category: 'Business',
-      source: 'Dribbble.com',
-      date: '15 Mar. 2023',
-      title: 'The Future of UI/UX Design Trends',
-      description: 'Exploring emerging design patterns and how they shape user experiences in modern applications...',
-      link : "https://medium.com/@luckyekezie80/what-is-the-latest-trends-in-ux-design-1dd366e1f6d5"
     }
+    // {
+    //   id: 11,
+    //   image: 'https://images.unsplash.com/photo-1581291518633-83b4ebd1d83e?w=400&h=300&fit=crop',
+    //   category: 'Business',
+    //   source: 'Dribbble.com',
+    //   date: '15 Mar. 2023',
+    //   title: 'The Future of UI/UX Design Trends',
+    //   description: 'Exploring emerging design patterns and how they shape user experiences in modern applications...',
+    //   link : "https://medium.com/@luckyekezie80/what-is-the-latest-trends-in-ux-design-1dd366e1f6d5"
+    // }
   ];
 
   // Filter publications based on active tab
@@ -213,7 +264,7 @@ const Publications: React.FC = () => {
         <div className="flex justify-center mt-20 cursor-pointer">
           <button 
             onClick={showingAll ? handleShowLess : handleLoadMore}
-            className="w-full py-8 border-1 border-[#9CA0A4] text-black font-semibold text-[16px] hover:bg-gray-100 transition-colors"
+            className="w-full py-8 border-1 border-[#9CA0A4] text-black font-semibold text-[16px] hover:bg-gray-100 transition-colors cursor-pointer"
           >
             {showingAll ? 'Show Less' : 'Load More'}
           </button>

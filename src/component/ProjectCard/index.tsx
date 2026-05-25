@@ -9,6 +9,7 @@ interface ProjectCardProps {
   imageAlt?: string;
   imageOnLeft?: boolean;
   projectUrl: string; 
+  banner?: string;
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -18,7 +19,8 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   imageSrc,
   imageAlt = "Project image",
   imageOnLeft = true,
-  projectUrl
+  projectUrl,
+  banner
 }) => {
   const navigate = useNavigate();
   const [cursorPosition, setCursorPosition] = useState({ x: 0, y: 0 });
@@ -80,7 +82,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
                 <img 
                   src={imageSrc} 
                   alt={imageAlt}
-                  className="w-full h-auto rounded-lg"
+                  className="w-full h-auto "
                 />
               ) : (
                 <div className="w-full h-[400px] bg-gray-300 rounded-lg"></div>
@@ -90,9 +92,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             {/* Content Section */}
             <div className="w-full md:w-1/2 flex flex-col justify-between">
               <div>
+                <div className='flex flex-row items-center gap-5'>
                 <h2 className="text-[30px] lg:text-[40px] font-medium text-[#000000] mb-4">
                   {title}
                 </h2>
+
+                {!!banner && (
+                <span className="px-4 py-1 mt-[-12px] bg-[#EDEDED] font-normal rounded-full text-[12px] text-[#626262]">
+                  {banner}
+                </span>
+              )}
+               
+                </div>
                 <p className="text-[20px] lg:text-[25px] text-[#626262] mb-6 leading-tight flex-grow">
                   {description}
                 </p>

@@ -9,6 +9,7 @@ import CliqMitCaseStudy from "../features/CliqMit"
 import Conversa from "../features/Conversa"
 import Home from "../features/Home"
 import KoboCaseStudy from "../features/Kobo"
+import Mentorship from "../features/Mentorship"
 import Publications from "../features/Publications"
 import Layout from "../Layout"
 
@@ -45,6 +46,10 @@ export const Routes = [
                 path : "ai/generative/designs",
                 element : <AIGenerativeDesign/>
                },
+               {
+                path : "/teachings",
+                element : <Mentorship/>
+               }
              
         ]},
         {

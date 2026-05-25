@@ -3,6 +3,7 @@ import cliq from "../../assets/new-portfolio/portfolio/cliqmit.png";
 import kobo from "../../assets/new-portfolio/portfolio/ks.png";
 import conversa from "../../assets/new-portfolio/portfolio/2 (10).png"
 import bosscab from "../../assets/new-portfolio/portfolio/bc.png";
+import syncventory from "../../assets/new-portfolio/portfolio/Image (11).png";
 
 const Portfolio:React.FC = () =>{
 
@@ -33,6 +34,32 @@ const Portfolio:React.FC = () =>{
                 projectUrl="case-study/cliqmit"
                 />
 
+               <ProjectCard
+                title="Syncventory"
+                description="I designed Kobo Vault as a financial technology
+                  combining instant virtual cards, real-time monitoring,
+                  seamless transfers, and smart budgeting in a secure,
+                  intuitive interface. The solution reduces cognitive
+                  load, builds trust through transparency, and positions
+                  Kobo Vault to capture underserved market segments
+                  seeking both simplicity and robust financial control."
+                tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
+                imageSrc={syncventory}
+                imageAlt="Syncventory app"
+                imageOnLeft={false}
+                  projectUrl="case-study/kobo"
+                />
+
+              <ProjectCard
+                title="Bosscab Ride"
+                description="A strategic redesign addressing user pain points and business growth. Through research uncovering affordability barriers, payment friction, and navigation issues, I designed group wallets, seamless transactions, and precise routing—solutions that reduce costs, improve retention, and drive sustainable growth."
+                tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
+                imageSrc={bosscab}
+                imageAlt="Bosscab Ride app"
+                imageOnLeft={true}
+                  projectUrl="case-study/bosscab"
+                />
+
                 <ProjectCard
                 title="Kobo Connect"
                 description="I designed Kobo Vault as a financial technology combining instant virtual cards, real-time monitoring, seamless transfers, and smart budgeting in a secure, intuitive interface. The solution reduces cognitive load, builds trust through transparency, and positions Kobo Vault to capture underserved market segments seeking both simplicity and robust financial control."
@@ -42,15 +69,7 @@ const Portfolio:React.FC = () =>{
                 imageOnLeft={false}
                   projectUrl="case-study/kobo"
                 />
-               <ProjectCard
-                title="Bosscab Ride"
-                description="A strategic redesign addressing user pain points and business growth. Through research uncovering affordability barriers, payment friction, and navigation issues, I designed group wallets, seamless transactions, and precise routing—solutions that reduce costs, improve retention, and drive sustainable growth."
-                tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
-                imageSrc={bosscab}
-                imageAlt="Bosscab Ride app"
-                imageOnLeft={true}
-                  projectUrl="case-study/bosscab"
-                />
+         
 
                 <ProjectCard
                 title="Conversa"
@@ -63,8 +82,9 @@ const Portfolio:React.FC = () =>{
                 tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
                 imageSrc={conversa}
                 imageAlt="Conversa app"
-                imageOnLeft={false}
+                imageOnLeft={true}
                   projectUrl="case-study/conversa"
+                  banner="Ongoing"
                 />
 
                
