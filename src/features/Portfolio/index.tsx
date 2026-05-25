@@ -36,13 +36,12 @@ const Portfolio:React.FC = () =>{
 
                <ProjectCard
                 title="Syncventory"
-                description="I designed Kobo Vault as a financial technology
-                  combining instant virtual cards, real-time monitoring,
-                  seamless transfers, and smart budgeting in a secure,
-                  intuitive interface. The solution reduces cognitive
-                  load, builds trust through transparency, and positions
-                  Kobo Vault to capture underserved market segments
-                  seeking both simplicity and robust financial control."
+                description="Designing the benchmark for accessible inventory
+                          management. Research uncovering fragmentation
+                          and inaccessibility led to a unified platform
+                          combining stock control, multi-channel sync, and
+                          POS integration—eliminating manual overhead and
+                          giving retailers full control from one place."
                 tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
                 imageSrc={syncventory}
                 imageAlt="Syncventory app"
