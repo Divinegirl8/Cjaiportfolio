@@ -4,7 +4,7 @@ const FifthSection : React.FC = () => {
     return(
         <>
         
-        <div className="flex xl:flex-row flex-col">
+        <div className="flex xl:flex-row flex-col xl:border-b xl:border-[#5A5A5A]">
          
 
            <div className="xl:w-1/2 xl:px-20 px-7 xl:py-16 py-10 xl:border-r xl:border-[#5A5A5A] ">

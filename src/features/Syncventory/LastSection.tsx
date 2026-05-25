@@ -11,7 +11,7 @@ import peopleIcon from "../../assets/new-portfolio/about-me/skills/people.svg";
 
 const LastSection = () =>{
     return(
-        <div className="xl:border-t xl:border-[#5A5A5A] xl:px-20 px-7 xl:py-16 py-10">
+        <div className="xl:px-20 px-7 xl:py-16 py-10">
 
             <h1 className="text-[#000000]  text-[25px] md:text-[32px] md:text-center font-[500] md:mb-6 max-lg:pt-5 max-lg:border-t max-lg:border-[#5A5A5A] ">
             Final Product 
