@@ -47,7 +47,7 @@ const Portfolio:React.FC = () =>{
                 imageSrc={syncventory}
                 imageAlt="Syncventory app"
                 imageOnLeft={false}
-                  projectUrl="case-study/kobo"
+                  projectUrl="case-study/syncventory"
                 />
 
               <ProjectCard

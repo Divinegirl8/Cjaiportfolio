@@ -11,6 +11,7 @@ import Home from "../features/Home"
 import KoboCaseStudy from "../features/Kobo"
 import Mentorship from "../features/Mentorship"
 import Publications from "../features/Publications"
+import Syncventory from "../features/Syncventory"
 import Layout from "../Layout"
 
 export const Routes = [
@@ -33,6 +34,10 @@ export const Routes = [
                {
                 path : "case-study/conversa",
                 element : <Conversa/>
+               },
+               {
+                path : "case-study/syncventory",
+                element : <Syncventory/>
                },
                {
                 path : "about/me",

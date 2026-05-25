@@ -1,4 +1,5 @@
-import koboPicture from "../../assets/new-portfolio/kobo/first-section/kobo.png";
+import syncImage from "../../assets/new-portfolio/portfolio/sync/Image (12).png";
+import syncMobImage from "../../assets/new-portfolio/portfolio/sync/Image (13).png";
 
 const FirstSection: React.FC = () => {
     return (
@@ -21,23 +22,32 @@ const FirstSection: React.FC = () => {
                                 <div className="flex flex-col gap-2">
                                     <h4 className="text-[#626262]">COMPANY</h4>
 
-                                    <h4 className="text-black font-semibold">Kobo Group</h4>
+                                    <h4 className="text-black font-semibold">Nugi Technologies</h4>
                                 </div>
 
                                 <div className="flex flex-col gap-2">
                                     <h4 className="text-[#626262]">YEAR</h4>
 
-                                    <h4 className="text-black font-semibold">2025 – Present</h4>
+                                    <h4 className="text-black font-semibold">2020 – 2023</h4>
                                 </div>
                             </div>
 
-                            <div>
+                            <div className="flex flex-row gap-22">
 
                             <div className="flex flex-col gap-2">
                                     <h4 className="text-[#626262]">PLATFORM</h4>
 
-                                    <h4 className="text-black font-semibold">Web · Mobile</h4>
+                                    <h4 className="text-black font-semibold">Web · POS · Mobile</h4>
+                            
+                            </div>
+
+
+                            <div className="flex flex-col gap-2">
+                                    <h4 className="text-[#626262]">EXHIBITION</h4>
+
+                                    <h4 className="text-black font-semibold">London Tech Week 2025</h4>
                                 </div>
+
 
 
                             </div>
@@ -45,7 +55,7 @@ const FirstSection: React.FC = () => {
 
                         </div>
                         
-                        <button className="absolute -bottom-[26px] right-16 px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors inline-flex items-center gap-2 cursor-pointer"  onClick={() => window.open('https://www.koboconnect.com/', '_blank')}>
+                        <button className="absolute -bottom-[26px] right-16 px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors inline-flex items-center gap-2 cursor-pointer"  onClick={() => window.open('http://syncventory.co/', '_blank')}>
                      
                             Visit Website 
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -59,14 +69,24 @@ const FirstSection: React.FC = () => {
                         <h2 className="text-[#000000] md:text-[32px] text-[25px] md:text-center font-[500] md:mb-6">
                             Project Brief
                         </h2>
+
+
                         
                         <div className="space-y-4 text-[#5A5A5A] text-base leading-relaxed">
                             <p>
-                                Design a comprehensive financial management platform within the Kobo Connect ecosystem that serves as the secure cornerstone for digital transactions across Africa. The goal was to create an intuitive financial hub where users, from students and freelancers to small business owners, can send and receive money instantly, generate virtual cards for online shopping, track spending patterns, set budgets, and manage multiple accounts without ever feeling overwhelmed.
+                            When I joined Nugi Technologies, multi-channel retailers in Africa were stuck
+                            in a fragmented nightmare. A fashion boutique with three Lagos locations
+                            and a Shopify store would be managing four completely separate systems —
+                            none of them talking to each other. A sale online didn't update the warehouse.
+                            A transfer between stores meant a phone call and a spreadsheet. Returns?
+                            A manual correction across every platform, one by one.                           
                             </p>
                             
                             <p>
-                                The platform needed to address Africa's unique financial landscape: fragmented payment systems, limited access to traditional banking, security concerns around digital money, and the growing demand for seamless e-commerce experiences.
+                            The existing solutions were either too simple or too expensive. My goal was
+                            to design Syncventory as the benchmark for accessible inventory
+                            management — powerful enough for multi-location retailers, simple enough
+                            for a first-time software user.                           
                             </p>
                         </div>
                     </div>
@@ -74,9 +94,16 @@ const FirstSection: React.FC = () => {
 
                 <div className="xl:w-1/2 my-auto md:py-10">
             <div className="flex flex-row justify-evenly items-stretch gap-8 md:px-14   ">
-                <div className="">
+                <div className="hidden md:block">
                     <img 
-                        src={koboPicture} 
+                        src={syncImage} 
+                        alt="Kobo App Interface"
+                    />
+                </div>
+
+                <div className="md:hidden">
+                    <img 
+                        src={syncMobImage} 
                         alt="Kobo App Interface"
                     />
                 </div>
@@ -84,8 +111,9 @@ const FirstSection: React.FC = () => {
         <div className="md:flex flex-col justify-between hidden">
             <div className="text-[#000000] text-sm tracking-wider z-10"
                 style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
-                Date <span className="font-[600]">01.01.2025</span>
+                Date <span className="font-[600]">01.01.2022</span>
             </div>
+        
             
             <div className="text-[#000000] text-base font-medium tracking-wide z-10"
                 style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
@@ -94,7 +122,7 @@ const FirstSection: React.FC = () => {
             
             <div className="text-[#000000] text-sm tracking-wider z-10 font-medium"
                 style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
-                04
+                02
             </div>
         </div>
     </div>

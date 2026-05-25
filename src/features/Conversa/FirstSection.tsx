@@ -11,7 +11,7 @@ const FirstSection: React.FC = () => {
              <div className="xl:hidden md:px-10 md:py-16 px-7  border-b border-[#5A5A5A] relative ">
                       
                         <button className="absolute -bottom-[26px] max-lg:right-16  px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors inline-flex items-center gap-2">
-                            Visit Website 
+                        For More Details
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M6 6V8H14.59L5 17.59L6.41 19L16 9.41V18H18V6H6Z" fill="#1E1E1E"/>
                             </svg>
@@ -103,7 +103,7 @@ const FirstSection: React.FC = () => {
                     
                     <div className="text-[#000000] text-sm tracking-wider z-10 font-medium"
                         style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
-                        04
+                        05
                     </div>
                 </div>
                     </div>
