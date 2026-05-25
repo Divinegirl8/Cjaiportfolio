@@ -31,6 +31,7 @@ const Publications: React.FC = () => {
   const [activeTab, setActiveTab] = useState<TabType>('View all');
   const [visibleCount, setVisibleCount] = useState<number>(6);
   const sectionRef = useRef<HTMLDivElement>(null);
+  const scrollPositionRef = useRef<number>(0);
 
   const tabs: TabType[] = ['View all', 'Design', 'Artificial Intelligence', 'Business', 'Lifestyle'];
   
@@ -159,12 +160,15 @@ const Publications: React.FC = () => {
   const showingAll = visibleCount >= filteredPublications.length && filteredPublications.length > 6;
 
   const handleLoadMore = () => {
+    scrollPositionRef.current = window.scrollY;
     setVisibleCount(prev => prev + 6);
   };
 
   const handleShowLess = () => {
     setVisibleCount(6);
-    sectionRef.current?.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    requestAnimationFrame(() => {
+      window.scrollTo({ top: scrollPositionRef.current, behavior: 'smooth' });
+    });
   };
 
   const handleTabChange = (tab: TabType) => {
