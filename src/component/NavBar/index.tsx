@@ -137,11 +137,11 @@ const NavBar: React.FC = () => {
                                 <div className="flex max-xl:items-center max-xl:justify-between gap-5 max-md:flex-col max-md:items-start max-md:gap-4">
                                     <span className="text-[15px] text-[#1F1F1F] max-md:text-[13px]">luckyekezie91@gmail.com</span>
                                     <div className="flex flex-row gap-2">
-                                        <img src={linkedinIcon} alt="linkedin" className="max-md:w-[35px] cursor-pointer"/>
-                                        <img src={xIcon} alt="x" className="max-md:w-[35px] cursor-pointer"/>
-                                        <img src={facebookIcon} alt="facebook" className="max-md:w-[35px] cursor-pointer"/>
-                                        <img src={instagramIcon} alt="instagram" className="max-md:w-[35px] cursor-pointer"/>
-                                        <img src={mediumIcon} alt="medium" className="max-md:w-[35px] cursor-pointer"/>
+                                        <img src={linkedinIcon} alt="linkedin" className="max-md:w-[35px] cursor-pointer" onClick={() => window.open('https://www.linkedin.com/in/lucky-ekezie/', '_blank')}/>
+                                        <img src={xIcon} alt="x" className="max-md:w-[35px] cursor-pointer" onClick={() => window.open('https://x.com/ceejaylucky?s=21&t=SzORyczSm-eFmrnsZEADRw', '_blank')}/>
+                                        <img src={facebookIcon} alt="facebook" className="max-md:w-[35px] cursor-pointer" onClick={() => window.open('https://www.facebook.com/lucky.ekezie', '_blank')}/>
+                                        <img src={instagramIcon} alt="instagram" className="max-md:w-[35px] cursor-pointer" onClick={() => window.open('https://www.instagram.com/luckyekezie.ai/', '_blank')}/>
+                                        <img src={mediumIcon} alt="medium" className="max-md:w-[35px] cursor-pointer" onClick={() => window.open('https://medium.com/@luckyekezie80', '_blank')}/>
                                     </div>
                                 </div>
                             </div>

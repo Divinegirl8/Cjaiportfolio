@@ -45,7 +45,7 @@ const FirstSection: React.FC = () => {
 
                         </div>
                         
-                        <button className="absolute -bottom-[26px] right-16 px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors inline-flex items-center gap-2 cursor-pointer"  onClick={() => window.open('https://www.koboconnect.com/', '_blank')}>
+                        <button className="absolute -bottom-[26px] right-16 px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors inline-flex items-center gap-2 cursor-pointer"  onClick={() => window.open('https://kobovault.com/', '_blank')}>
                      
                             Visit Website 
                             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

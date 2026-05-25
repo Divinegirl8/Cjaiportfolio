@@ -35,11 +35,11 @@ const Footer:React.FC = () =>{
                 <div  className=" flex flex-col  gap-2 md:mr-20">
                     <span className="text-[#626262] text-[17px]">Social</span>
                     <div className="flex flex-row gap-2">
-                        <img src={linkedinIcon} alt="linkedin"/>
-                        <img src={xIcon} alt="x"/>
-                        <img src={facebookIcon} alt="facebook"/>
-                        <img src={instagramIcon} alt="instagram"/>
-                        <img src={mediumIcon} alt="medium"/>
+                        <img src={linkedinIcon} alt="linkedin"  onClick={() => window.open('https://www.linkedin.com/in/lucky-ekezie/', '_blank')} className="cursor-pointer"/>
+                        <img src={xIcon} alt="x"  onClick={() => window.open('https://x.com/ceejaylucky?s=21&t=SzORyczSm-eFmrnsZEADRw', '_blank')} className="cursor-pointer"/>
+                        <img src={facebookIcon} alt="facebook" onClick={() => window.open('https://www.facebook.com/lucky.ekezie', '_blank')} className="cursor-pointer"/>
+                        <img src={instagramIcon} alt="instagram" onClick={() => window.open('https://www.instagram.com/luckyekezie.ai/', '_blank')} className="cursor-pointer"/>
+                        <img src={mediumIcon} alt="medium" onClick={() => window.open('https://medium.com/@luckyekezie80')} className="cursor-pointer"/>
 
                     </div>
                 </div>
