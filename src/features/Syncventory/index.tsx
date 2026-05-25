@@ -1,5 +1,7 @@
+import EightSection from "./EightSection";
 import FifthSection from "./FifthSection";
 import FirstSection from "./FirstSection";
+import FourthSection from "./FourthSection";
 import LastSection from "./LastSection";
 import NinthSection from "./NinthSection";
 import SecondSection from "./SecondSection";
@@ -25,11 +27,11 @@ const Syncventory = () => {
             <FirstSection/>
             <SecondSection/>
             <ThirdSection/>
-
+            <FourthSection/>
             <FifthSection/>
             <SixthSection/>
             <SeventhSection/>
-
+            <EightSection/>
             <NinthSection/>
             <LastSection/>
 

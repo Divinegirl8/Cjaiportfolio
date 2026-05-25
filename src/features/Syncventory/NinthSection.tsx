@@ -4,7 +4,7 @@ const NinthSection : React.FC = () => {
     return(
         <>
         
-        <div className="flex xl:flex-row flex-col-reverse">
+        <div className="flex xl:flex-row flex-col-reverse xl:border-t xl:border-b xl:border-[#5A5A5A]">
            <div className="xl:w-1/2 xl:border-r xl:border-[#5A5A5A]">
               <img src={manImage} className="w-full h-full object-cover"/>
            </div>
