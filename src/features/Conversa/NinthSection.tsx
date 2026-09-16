@@ -1,4 +1,4 @@
-import sketchImage from "../../assets/new-portfolio/conversa/1 (10).png";
+import sketchImage from "../../assets/new-portfolio/conversa/Mask group (17).svg";
 
 const NinthSection : React.FC = () => {
     return(
@@ -17,7 +17,7 @@ const NinthSection : React.FC = () => {
 
             <div className="space-y-10  ">
                 <p className=" text-[16px] leading-relaxed font-[500]">
-                         What We Delivered </p>
+                What We're Building </p>
             </div>
 
  
@@ -27,26 +27,26 @@ const NinthSection : React.FC = () => {
                     <p className="font-[500] mt-3">For Healthcare Providers:</p>
                     
                     <p className="text-[#5A5A5A] text-[16px] leading-relaxed mt-2">
-                        We delivered a comprehensive AI voice platform that handles over 100 call
-                        types automatically, from routine appointments to prescription refills.
-                        Healthcare staff gain access to a real-time monitoring dashboard with
-                        live transcriptions, analytics showing call patterns and patient
-                        satisfaction, and seamless integrations with existing calendar and
-                        EHR systems. All calls are stored in HIPAA-compliant infrastructure with
-                        encryption, while the AI provides genuine 24/7 patient support without
-                        requiring additional staffing.         
+                    Sernio is designed to give clinics a complete AI voice platform that handles
+                    routine calls automatically, from appointment bookings to prescription
+                    refills, without additional staffing. The admin dashboard gives staff real-
+                    time visibility into every call, with live transcriptions, call pattern analytics,
+                    and seamless calendar and EHR integrations. The infrastructure is being
+                    built to HIPAA-compliant standards from day one, with encrypted call
+                    storage and full audit trails.      
                     </p>
 
                         <div className="space-y-1">
                     <p className="font-[500] mt-9">For Patients:</p>
 
                     <p className="text-[#5A5A5A] text-[16px] leading-relaxed mt-2">
-                        Patients experience instant connection with zero hold times, available every
-                        hour of every day including nights, weekends, and holidays. The AI conducts
-                        natural, empathetic conversations without robotic menu navigation, books
-                        appointments immediately, and provides consistent accurate information.
-                        When needed, patients can seamlessly transfer to human staff who receive
-                        full context from the AI conversation.            
+                    The patient experience is designed around one principle: no patient should
+                    wait on hold for something a well-designed AI can handle instantly. Sernio
+                    conducts natural, empathetic conversations; no robotic menus, no hold
+                    music, and books appointments, answers questions, and provides accurate
+                    clinic information 24/7. When a situation requires human judgment, the
+                    transfer is seamless — staff receive full conversation context so patients
+                    never have to repeat themselves.         
                     </p>
 
                     </div>

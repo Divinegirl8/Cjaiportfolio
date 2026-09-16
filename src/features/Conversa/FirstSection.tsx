@@ -1,5 +1,5 @@
-import secondImage from "../../assets/new-portfolio/conversa/first-section/1 (8).png";
-import orangeImage from "../../assets/new-portfolio/conversa/first-section/2 (9).png";
+import secondImage from "../../assets/new-portfolio/conversa/first-section/1 (25).png";
+import orangeImage from "../../assets/new-portfolio/conversa/first-section/2 (28).png";
 import ashImage from "../../assets/new-portfolio/conversa/first-section/3 (6).png";
 
 
@@ -32,18 +32,17 @@ const FirstSection: React.FC = () => {
 
                         <p className="font-bold">The Challenge</p>
                           <p>
-                            Healthcare facilities struggle with high call volumes, long patient wait
-                            times, and administrative staff burnout. Hospitals and clinics receive
-                            hundreds of daily calls for appointment bookings, prescription refills,
-                            general inquiries, and after-hours emergencies—but limited staff
-                            capacity means missed calls, frustrated patients, and lost revenue.
+                              The Challenge Healthcare facilities struggle with high call volumes, long patient wait
+                              times, and administrative staff burnout. Hospitals and clinics receive
+                              hundreds of daily calls for appointment bookings, prescription refills,
+                              general inquiries, and after-hours emergencies—but limited staff
+                              capacity means missed calls, frustrated patients, and lost revenue.
                           </p>
-                          
-                          <p>
-                            Traditional phone systems force patients into complex IVR menus
-                            (press 1 for appointments, press 2 for...), creating friction and
-                            abandonment. Even when calls connect, staff spend 60-70% of their
-                            time on repetitive administrative tasks instead of patient care.
+                             <p>
+                              Traditional phone systems force patients into complex IVR menus
+                              (press 1 for appointments, press 2 for...), creating friction and
+                              abandonment. Even when calls connect, staff spend the majority of
+                              their time on repetitive administrative tasks instead of patient care.
                           </p>
                       </div>
               </div>
@@ -69,13 +68,13 @@ const FirstSection: React.FC = () => {
                          
                          <div className="lg:flex flex-col space-y-2 py-10 text-[21px] hidden">
                             <span><span className="font-bold">My Role:</span> Founder & Lead Product Designer</span>
-                            <span><span className="font-bold">Timeline:</span> June 2025 - Present</span>
+                            <span><span className="font-bold">Timeline:</span> August 2025 - Present</span>
                             <span><span className="font-bold">Platform:</span> Web Dashboard, Voice API, Mobile (iOS/Android)</span>
-                            <span><span className="font-bold">Tools:</span> Figma, Voiceflow, Cursor AI, Midjourney</span>
+                            <span><span className="font-bold">Tools:</span> Figma, Voiceflow, Eleven Labs, Midjourney</span>
                          </div>
                          
-                         <button className="lg:absolute lg:-bottom-[26px]  px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors lg:inline-flex items-center gap-2 cursor-pointer  hidden">
-                              For More Details
+                         <button className="lg:absolute lg:-bottom-[26px]  px-8 py-3 border border-[#5A5A5A] bg-white rounded-full text-base hover:bg-gray-50 transition-colors lg:inline-flex items-center gap-2 cursor-pointer  hidden" onClick={() => window.open('https://www.sernioai.com/', '_blank')}>
+                              Visit Website
                              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                              <path d="M6 6V8H14.59L5 17.59L6.41 19L16 9.41V18H18V6H6Z" fill="#1E1E1E"/>
                              </svg>
@@ -93,7 +92,7 @@ const FirstSection: React.FC = () => {
                 <div className="md:flex flex-col justify-between hidden py-20 pr-2">
                     <div className="text-[#000000] text-sm tracking-wider z-10"
                         style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
-                        Date <span className="font-[600]">01.01.2025</span>
+                        Date <span className="font-[600]">01.08.2025</span>
                     </div>
                     
                     <div className="text-[#000000] text-base font-medium tracking-wide z-10"
@@ -103,7 +102,7 @@ const FirstSection: React.FC = () => {
                     
                     <div className="text-[#000000] text-sm tracking-wider z-10 font-medium"
                         style={{ writingMode: 'vertical-rl', transform: 'rotate(180deg)'}}>
-                        05
+                        04
                     </div>
                 </div>
                     </div>

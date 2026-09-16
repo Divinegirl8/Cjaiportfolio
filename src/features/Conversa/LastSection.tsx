@@ -1,5 +1,5 @@
-import screenImg from "../../assets/new-portfolio/conversa/Group (7).png"
-import screenMobImg from "../../assets/new-portfolio/conversa/9.png"
+import screenImg from "../../assets/new-portfolio/conversa/Group (12).svg"
+import screenMobImg from "../../assets/new-portfolio/conversa/9.svg"
 
 
 const LastSection : React.FC = () => {

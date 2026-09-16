@@ -1,4 +1,4 @@
-import paperImage from "../../assets/new-portfolio/conversa/third-section/1 (9).png";
+import paperImage from "../../assets/new-portfolio/conversa/third-section/1 (26).png";
 import stickyNoteImage from "../../assets/new-portfolio/conversa/third-section/Mask group (16).png";
 
 

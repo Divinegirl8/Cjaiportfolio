@@ -1,7 +1,7 @@
 import ProjectCard from "../../component/ProjectCard";
 import cliq from "../../assets/new-portfolio/portfolio/cliqmit.png";
 import kobo from "../../assets/new-portfolio/portfolio/ks.png";
-import conversa from "../../assets/new-portfolio/portfolio/2 (10).png"
+import conversa from "../../assets/new-portfolio/portfolio/2 (27).png"
 import bosscab from "../../assets/new-portfolio/portfolio/bc.png";
 import syncventory from "../../assets/new-portfolio/portfolio/Image (11).png";
 
@@ -59,7 +59,20 @@ const Portfolio:React.FC = () =>{
                   projectUrl="case-study/bosscab"
                 />
 
+    
+
                 <ProjectCard
+                title="Sernio Ai"
+                description="Sernio (formerly Conversa) is an healthcare-focused AI voice and chat platform built to streamline patient communication. Designed with clinical workflows in mind, it enables compliant automation for scheduling, follow-ups, and patient support—reducing admin load and improving care experiences."
+                tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
+                imageSrc={conversa}
+                imageAlt="Conversa app"
+                imageOnLeft={true}
+                  projectUrl="case-study/conversa"
+                  banner="Ongoing"
+                />
+
+               <ProjectCard
                 title="Kobo Connect"
                 description="I designed Kobo Vault as a financial technology combining instant virtual cards, real-time monitoring, seamless transfers, and smart budgeting in a secure, intuitive interface. The solution reduces cognitive load, builds trust through transparency, and positions Kobo Vault to capture underserved market segments seeking both simplicity and robust financial control."
                 tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
@@ -68,23 +81,7 @@ const Portfolio:React.FC = () =>{
                 imageOnLeft={false}
                   projectUrl="case-study/kobo"
                 />
-         
-
-                <ProjectCard
-                title="Conversa"
-                description="Conversa is a healthcare-focused AI voice and chat
-                              platform built to streamline patient communication.
-                              Designed with clinical workflows in mind, it enables
-                              compliant automation for scheduling, follow-ups,
-                              and patient support—reducing admin load and
-                              improving care experiences."
-                tags={["USER INTERVIEWS", "DESIGN THINKING", "UI DESIGN", "UX DESIGN", "PROTOTYPING"]}
-                imageSrc={conversa}
-                imageAlt="Conversa app"
-                imageOnLeft={true}
-                  projectUrl="case-study/conversa"
-                  banner="Ongoing"
-                />
+          
 
                
             </div>

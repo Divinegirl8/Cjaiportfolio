@@ -41,24 +41,34 @@ const SecondSection : React.FC = () => {
                 </h2>
                 
                 <div className="space-y-4 text-[#5A5A5A] text-base leading-relaxed">
-                   
+
+
+
+
+
+
 
                     <p>  
-                         I conducted extensive research with both primary
-                        user groups—healthcare providers and patients:
+                            I conducted research to ground the product in
+                            real healthcare communication behaviour,
+                            focusing on what currently breaks down between
+                            clinics and patients, and where AI could genuinely
+                            help.
                     </p>
 
-                    <p>15 in-depth interviews with front desk staff,
-                        nurses, and practice managers.</p>
+                    <p>
+                                <span className="font-semibold">Stakeholder interviews </span>with clinic administrators
+                                and front desk staff to understand operational
+                                pain points and workflow constraints.</p>
 
-                    <p>Survey of 200+ patients about their phone
-                        experience with medical offices.</p>
-                    
-                    <p>Shadowing sessions observing real call handling at 3 clinics.</p>
+                    <p>  <span className="font-semibold">Competitive analysis</span> of existing voice AI platforms
+                            -Synthflow, Bland AI, Autocalls — identifying gaps in
+                            healthcare-specific design and conversation quality.</p>
+                                                
+                    <p>  <span className="font-semibold"> Secondary research</span> into healthcare communica-
+tion patterns, patient behaviour on phone calls,
+and AI adoption barriers in clinical settings. </p>
 
-                    <p>Call recording analysis of 100+ actual patient calls.</p>
-
-                    <p>Competitive analysis of existing healthcare communication tools.</p>
 
                 </div>
             </div>

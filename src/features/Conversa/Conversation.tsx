@@ -1,16 +1,16 @@
 import diagramImage from "../../assets/new-portfolio/conversa/conversation/Group (6).png";
-import firstImage from "../../assets/new-portfolio/conversa/conversation/1 (14).png";
-import secondImage from "../../assets/new-portfolio/conversa/conversation/2 (16).png";
-import thirdImage from "../../assets/new-portfolio/conversa/conversation/3 (9).png";
-import fourthImage from "../../assets/new-portfolio/conversa/conversation/4 (4).png";
-import fifthImage from "../../assets/new-portfolio/conversa/conversation/5 (15).png";
-import sixthImage from "../../assets/new-portfolio/conversa/conversation/6 (17).png";
-import seventhImage from "../../assets/new-portfolio/conversa/conversation/7 (10).png";
-import eightImage from "../../assets/new-portfolio/conversa/conversation/8 (5).png";
-import ninthImage from "../../assets/new-portfolio/conversa/conversation/9 (16).png";
-import tenthImage from "../../assets/new-portfolio/conversa/conversation/10 (18).png";
-import eleventhImage from "../../assets/new-portfolio/conversa/conversation/11 (11).png";
-import twelvethImage from "../../assets/new-portfolio/conversa/conversation/12 (6).png";
+import firstImage from "../../assets/new-portfolio/conversa/conversation/1 (22).svg";
+import secondImage from "../../assets/new-portfolio/conversa/conversation/2 (20).svg";
+import thirdImage from "../../assets/new-portfolio/conversa/conversation/3 (16).svg";
+import fourthImage from "../../assets/new-portfolio/conversa/conversation/4 (7).svg";
+import fifthImage from "../../assets/new-portfolio/conversa/conversation/1 (23).svg";
+import sixthImage from "../../assets/new-portfolio/conversa/conversation/2 (21).svg";
+import seventhImage from "../../assets/new-portfolio/conversa/conversation/3 (17).svg";
+import eightImage from "../../assets/new-portfolio/conversa/conversation/4 (8).svg";
+import ninthImage from "../../assets/new-portfolio/conversa/conversation/1 (24).svg";
+import tenthImage from "../../assets/new-portfolio/conversa/conversation/2 (22).svg";
+import eleventhImage from "../../assets/new-portfolio/conversa/conversation/3 (18).svg";
+import twelvethImage from "../../assets/new-portfolio/conversa/conversation/4 (9).svg";
 import diagramMobImage from "../../assets/new-portfolio/conversa/conversation/Group (9).png";
 
 const Conversation:React.FC = () => {
@@ -34,23 +34,23 @@ const Conversation:React.FC = () => {
 
           <div className="md:flex md:justify-center mt-20 px-10">
                 <h2 className="text-[#000000] text-[38px] max-sm:text-[25px] xl:text-center  font-medium leading-tight md:mt-5">
-                  <span className="block">Handled Scenarios</span>
+                  <span className="block">Designed Scenario Coverage</span>
                   </h2>
           </div>
 
           <div className="grid xl:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-5 md:px-20 px-10 md:py-20 py-5">
-            <img src={firstImage} className="w-[360px] h-[160px]"/>
-             <img src={secondImage} className="w-[360px] h-[160px]"/>
-              <img src={thirdImage} className="w-[360px] h-[160px]"/>
-               <img src={fourthImage} className="w-[360px] h-[160px]"/>
-               <img src={fifthImage} className="w-[360px] h-[160px]"/>
-               <img src={sixthImage} className="w-[360px] h-[160px]"/>
-                <img src={seventhImage} className="w-[360px] h-[160px]"/>
-               <img src={eightImage} className="w-[360px] h-[160px]"/>
-                <img src={ninthImage} className="w-[360px] h-[160px]"/>
-               <img src={tenthImage} className="w-[360px] h-[160px]"/>
-               <img src={eleventhImage} className="w-[360px] h-[160px]"/>
-                <img src={twelvethImage} className="w-[360px] h-[160px]"/>
+            <img src={firstImage} />
+             <img src={secondImage}/>
+              <img src={thirdImage} />
+               <img src={fourthImage} />
+               <img src={fifthImage} />
+               <img src={sixthImage} />
+                <img src={seventhImage} />
+               <img src={eightImage} />
+                <img src={ninthImage} />
+               <img src={tenthImage} />
+               <img src={eleventhImage} />
+                <img src={twelvethImage}/>
           </div>
         </>
     )
