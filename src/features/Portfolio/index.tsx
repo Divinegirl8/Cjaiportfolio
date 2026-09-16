@@ -68,7 +68,7 @@ const Portfolio:React.FC = () =>{
                 imageSrc={conversa}
                 imageAlt="Conversa app"
                 imageOnLeft={true}
-                  projectUrl="case-study/conversa"
+                  projectUrl="case-study/sernio"
                   banner="Ongoing"
                 />
 

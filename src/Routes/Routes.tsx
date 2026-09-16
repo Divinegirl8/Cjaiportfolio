@@ -32,7 +32,7 @@ export const Routes = [
                 element : <BossCab/>
                },
                {
-                path : "case-study/conversa",
+                path : "case-study/sernio",
                 element : <Conversa/>
                },
                {

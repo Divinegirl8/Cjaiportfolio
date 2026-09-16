@@ -19,11 +19,17 @@ const ThirdSection : React.FC = () => {
                    Key User Insights
                 </h2>
                 <div className="space-y-6 text-[#5A5A5A] text-base leading-relaxed max-lg:mb-5  ">
-                  <p><span className="font-[500]"> Trust Through Transparency:</span> Transparency builds trust when AI limitations exist</p>
+                  <p><span className="font-[500]">Trust Through Transparency:</span> Transparency builds trust when AI limitations exist</p>
                   <p><span className="font-[500]">Empathy Over Efficiency:</span> Speed alone wasn't enough —patients valued understanding and clear communication.</p>
-                  <p><span className="font-[500]">60% Routine Inquiries:</span> Staff spent majority of time on repeatable questions (hours, appointments, refills).</p>
+                  <p><span className="font-[500]">Routine Inquiries Dominate:</span> Staff spent the majority of their time on repeatable questions; hours, appointments, refills — leaving little capacity for complex patient needs.</p>
                   <p><span className="font-[500]">Emergency Escalation:</span> Critical situations required immediate human transfer within seconds.</p>
                   <p><span className="font-[500]">Context Matters:</span> Patients often ask multiple questions in one call—system needed memory.</p>
+
+
+              
+
+
+
 
 
 
