@@ -45,7 +45,7 @@ const RigorousSection : React.FC = () => {
 
                     <p className="text-[#5A5A5A] text-[16px] leading-relaxed mt-5 flex flex-col ">
                             This approach, validate the concept before engineering it, is how we
-                            ensured that when Conversa does launch, it solves the right problems
+                            ensured that when Sernio does launch, it solves the right problems
                             in the right way from day one.       
                     </p>
 
