@@ -21,19 +21,25 @@ const SixthSection: React.FC = () => {
                           Trust Through Transparency                
                         </h2>
                         
-                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed"> Building a financial product taught me that design alone doesn't create trust—transparency does. Every security decision, every transaction step, and every data point needs clear explanation. Users don't just want a beautiful app; they want to understand why they should trust it with their money.
+                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed">                     Building a financial product taught me that design alone doesn't create trust, transparency does. Every security decision, every transaction step, and every data point needs clear explanation. Users don't just want a beautiful app; they want to understand why they should trust it with their money.
                         </p>
                     </div>
 
 
                     <div>
                         <h2 className="text-[#000000] text-[16px] font-semibold  md:mb-2">
-                        Progressive Complexity Initially
-                        </h2> 
+                                  Progressive Complexity
+                         </h2> 
                         
-                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed"> I tried to showcase all of Kobo Vault's powerful features upfront. User testing revealed this intimidated new users. The breakthrough came from adopting progressive complexity—starting users with basic send/receive flows, then gradually introducing virtual cards, budgets, and analytics as they gain confidence. This approach increased activation rates by 45% and reduced early drop-off significantly.
+                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed"> I tried to showcase all of Kobo Vault's powerful features upfront. User testing revealed this intimidated new users. The breakthrough came from adopting progressive complexity — starting users with basic send /receive flows, then gradually introducing virtual cards, budgets, and analytics as they gain confidence. This approach shaped the entire onboarding architecture and became a core principle of the product experience.
+
                         </p>
                     </div>
+
+                    
+                    
+
+
 
                    
                 </div>
