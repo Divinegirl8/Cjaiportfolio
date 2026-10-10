@@ -1,4 +1,4 @@
-import procesImage from "../../assets/new-portfolio/cliqmit/second-section/2 (3).png";
+import procesImage from "../../assets/new-portfolio/conversa/5.svg";
 
 const SecondSection : React.FC = () => {
      return(
