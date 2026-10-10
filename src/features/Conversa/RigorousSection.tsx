@@ -21,32 +21,33 @@ const RigorousSection : React.FC = () => {
            
 
             <h1 className="text-[#000000] md:text-[32px] w-80 text-[25px]  font-medium md:mb-6 max-lg:pt-5 max-lg:border-t max-lg:border-[#5A5A5A]">
-            How We're Validating Before
-            We Build
+            How I'm Testing Before We Build
             </h1>
       
 
 
               <div className="md:space-y-8 space-y-3">
                 <p className="text-[#5A5A5A] text-[16px] leading-relaxed ">
-                  Sernio is currently in active development. Before committing to full
-                  build, I led a structured concept validation process, grounding
-                  every design decision in real stakeholder input, competitive
-                  intelligence, and scenario walkthroughs.              
+                  Sernio is currently in development. Before committing to a full build,
+                  I tested the concept through conversations with clinic administrators
+                  and front desk staff, research into existing voice AI platforms, and
+                  walkthroughs of the core call scenarios.              
                </p>
 
                     
                     <p className="text-[#5A5A5A] text-[16px] leading-relaxed flex flex-col ">
-                          Rather than assume we understood the problem, we tested our
-                          understanding of it. Each validation round refined the conversation
-                          architecture, the admin dashboard, and the core scenarios we
-                          prioritized for MVP.
+                          Each round helped refine three things. The conversation architecture
+                          changed as I mapped how calls move from intent detection to booking,
+                          rescheduling, prescription refills and emergency routing. The admin
+                          dashboard was shaped around what clinic staff need to see about their
+                          calls. And the MVP scope came from deciding which scenarios to build
+                          first and which to plan for later, such as insurance verification and
+                          general clinic information.
                     </p>
 
                     <p className="text-[#5A5A5A] text-[16px] leading-relaxed mt-5 flex flex-col ">
-                            This approach, validate the concept before engineering it, is how we
-                            ensured that when Sernio does launch, it solves the right problems
-                            in the right way from day one.       
+                            The aim is to confirm that Sernio solves the right problems for clinics and
+                            patients before it is engineered.       
                     </p>
 
               
