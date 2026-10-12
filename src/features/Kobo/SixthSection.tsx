@@ -31,7 +31,14 @@ const SixthSection: React.FC = () => {
                                   Progressive Complexity
                          </h2> 
                         
-                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed"> I tried to showcase all of Kobo Vault's powerful features upfront. User testing revealed this intimidated new users. The breakthrough came from adopting progressive complexity — starting users with basic send /receive flows, then gradually introducing virtual cards, budgets, and analytics as they gain confidence. This approach shaped the entire onboarding architecture and became a core principle of the product experience.
+                        <p className="text-[#5A5A5A] text-[16px] leading-relaxed">
+                            I tried to showcase all of Kobo Vault's powerful features upfront.
+                            In testing, new users hesitated when shown all features at once.
+                            The breakthrough came from adopting progressive complexity —
+                            starting users with basic send/receive flows, then gradually
+                            introducing virtual cards, budgets, and analytics as they gain
+                            confidence. This approach shaped the entire onboarding
+                            architecture and became a core principle of the product experience.
 
                         </p>
                     </div>
